@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Core.cpp" />
+    <ClCompile Include="game.cpp">
+      <Filter>Tmpl8</Filter>
+    </ClCompile>
+    <ClCompile Include="surface.cpp">
+      <Filter>Tmpl8</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>Tmpl8</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="EventManager.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="RootNode.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="TriangulatedObject.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="Edge.cpp" />
+    <ClCompile Include="Hull.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core.h" />
+    <ClInclude Include="game.h">
+      <Filter>Tmpl8</Filter>
+    </ClInclude>
+    <ClInclude Include="surface.h">
+      <Filter>Tmpl8</Filter>
+    </ClInclude>
+    <ClInclude Include="template.h">
+      <Filter>Tmpl8</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="EventManager.h" />
+    <ClInclude Include="Vector2.h" />
+    <ClInclude Include="Keys.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="RootNode.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="TriangulatedObject.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="Edge.h" />
+    <ClInclude Include="Hull.h" />
+    <ClInclude Include="Mesh.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tmpl8">
+      <UniqueIdentifier>{84e033b5-efd4-4a57-aea5-15bfc4ed25e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
